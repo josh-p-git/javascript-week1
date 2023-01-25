@@ -15,3 +15,4 @@ describe('returns price of candy', () => {
         expect(candy.getPrice()).toEqual(4.99);
   });
 });
+
