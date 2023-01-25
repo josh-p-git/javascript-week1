@@ -12,24 +12,6 @@ class Candy {
       return this.price;
     }
 };
- /* 
-class ShoppingBasket {
-    constructor() {
-      this.basket = [];
-    }
-  
-    addItem(item) {
-      this.basket.push(item)
-    }
-  
-    getTotalPrice() {
-      let total = 0
-      this.basket.map(item => item.getPrice()).forEach(price => total += price);
-      return total;
-    }
-};
-
-
 
 /*const candy = new Candy('Mars', 4.99);
 
