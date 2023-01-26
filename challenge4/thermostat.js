@@ -8,7 +8,19 @@ class Thermostat {
     getTemperature() {
         return this.temperature;
     }
+
+    up() {
+        return this.temperature += 1
+    }
+
+    down() {
+        return this.temperature -= 1
+    }
 };
 
-temp = new Thermostat;
+module.exports = Thermostat;
+
+/*temp = new Thermostat();
 console.log(temp.getTemperature());
+console.log(temp.up());
+console.log(temp.down());*/
